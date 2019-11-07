@@ -238,7 +238,12 @@ class PeakFinder
             }
         }
 
-        if (arr[rowNumberForLargestNumber, midColumn]<arr[rowNumberForLargestNumber,midColumn-1])
+        if (leftIndex == rightIndex)
+        {
+            Console.WriteLine(largestNumberInColumn + "at postion [{0},{1}] is a peak",rowNumberForLargestNumber,leftIndex);
+        }
+
+        else if (arr[rowNumberForLargestNumber, midColumn]<arr[rowNumberForLargestNumber,midColumn-1])
         {
             DivideAndConquer_2D(arr,leftIndex, midColumn - 1);
         }
@@ -251,7 +256,7 @@ class PeakFinder
         else
         {
             Console.WriteLine("\n");
-            Console.WriteLine(arr[rowNumberForLargestNumber, midColumn] + "is a peak");
+            Console.WriteLine(arr[rowNumberForLargestNumber, midColumn] + "at position [{0}{1}] is a peak",rowNumberForLargestNumber,midColumn);
             Console.WriteLine("\n");
         }
     }
