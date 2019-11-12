@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakFindingAlgo", "ConsoleApp1\PeakFindingAlgo.csproj", "{58A5D0B2-E861-41AA-B49B-373E6EDF3313}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{B72DEB65-79C4-49CD-94F0-E4B437C8536C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListImplementation", "ConsoleApp2\LinkedListImplementation.csproj", "{B72DEB65-79C4-49CD-94F0-E4B437C8536C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
